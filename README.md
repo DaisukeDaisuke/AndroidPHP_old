@@ -12,6 +12,7 @@ Androidでお使いになる場合は、ターミナルエミュレータが必�
 ## バイナリをビルドする際に使用したリポジトリ
 https://gitlab.com/2ndLesmi/MuslCrossMake <br />
 https://gitlab.com/2ndLesmi/AndroidPhp <br />
+https://github.com/pmmp/php-build-scripts <br />
 
 ## install
 [7.2.4-Android-AArch64-x64.zip](https://github.com/DaisukeDaisuke/pocketmine-mp_Android_64bit/blob/master/binary/7.2.4-Android-AArch64-x64.zip?raw=true)  をダウンロードし、解凍します。<br />
