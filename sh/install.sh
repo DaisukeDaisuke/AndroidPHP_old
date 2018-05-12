@@ -1,6 +1,4 @@
 #!/bin/sh
-#sh /sdcard/www/install.sh
-#cd
 if [ -w /data/data/jackpal.androidterm/app_HOME/ ]; then
 	if [ -e /storage/emulated/0/Download/php ]; then
 		echo "/data/data/jackpal.androidterm/app_HOME/にphpをインストールします。"
@@ -35,6 +33,5 @@ if [ -w /data/data/jackpal.androidterm/app_HOME/ ]; then
 	fi
 else
 	echo "/data/data/jackpal.androidterm/app_HOME/ にアクセス出来ませんでした。"
-	echo "Android Terminal Emulatorで実行していますか...?"
+	echo "Android Terminal Emulatorで実行していますか?"
 fi
-#echo "ok"
