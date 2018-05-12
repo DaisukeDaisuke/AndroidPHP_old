@@ -30,10 +30,10 @@ PocketMineフォルダを内部ストレージに作成します。<br />
 mkdir /storage/emulated/0/PocketMine/
 ```
 
-最新版のPocketMine-MPもダウンロードし、先ほど作成したフォルダにファイルマネージャーで展開しましょう。<br />
+インストール時にソースのPocketMine-MPも必要なのでダウンロードし、先ほど作成したフォルダにファイルマネージャーでコピーしましょう<br />
 https://jenkins.pmmp.io/job/PocketMine-MP/lastSuccessfulBuild/artifact/PocketMine-MP.phar <br />
 
-インストール時にソースのPocketMine-MPも必要なのでダウンロードし、先ほど作成したフォルダにファイルマネージャーでコピーしましょう<br />
+最新版のPocketMine-MPもダウンロードし、先ほど作成したフォルダにファイルマネージャーで展開しましょう。<br />
 https://github.com/pmmp/PocketMine-MP/archive/master.zip <br />
 
 ### 現在の様子
