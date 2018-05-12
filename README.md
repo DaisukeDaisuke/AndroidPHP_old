@@ -20,21 +20,21 @@ https://github.com/pmmp/php-build-scripts <br />
 https://play.google.com/store/apps/details?id=jackpal.androidterm <br />
 アプリを起動し、以下のコマンドを入力します。<br />
 ```
-cp /sdcard/Download/php /data/data/jackpal.androidterm/app_HOME/php
+cp /storage/emulated/0/Download/php /data/data/jackpal.androidterm/app_HOME/php
 chmod 777 /data/data/jackpal.androidterm/app_HOME/php
 ```
 
 ## pmmp/Pocketmine-MPのダウンロード
 
-最新版のPocketMine-MPもダウンロードし、`/sdcard/PocketMine/`か任意のフォルダに展開しましょう。<br />
+最新版のPocketMine-MPもダウンロードし、`/storage/emulated/0/PocketMine/`か任意のフォルダに展開しましょう。<br />
 https://jenkins.pmmp.io/job/PocketMine-MP/lastSuccessfulBuild/artifact/PocketMine-MP.phar <br />
 
-インストール時にソースのPocketMine-MPも必要なのでダウンロードし、`/sdcard/PocketMine/`か任意のフォルダに展開しましょう。<br />
+インストール時にソースのPocketMine-MPも必要なのでダウンロードし、`/storage/emulated/0/PocketMine/`か任意のフォルダに展開しましょう。<br />
 https://github.com/pmmp/PocketMine-MP/archive/master.zip <br />
 
 ### 現在の様子
 ```
-/sdcard/PocketMine $ ls
+/storage/emulated/0/PocketMine $ ls
 CONTRIBUTING.md
 LICENSE
 PocketMine-MP.phar
@@ -51,8 +51,8 @@ tests
 
 ## 実行に必要な設定ファイルをコピー
 ```
-cp /sdcard/Download/resolv.conf /sdcard/PocketMine/resolv.conf
-cp /sdcard/Download/php.ini /sdcard/PocketMine/php.ini
+cp /storage/emulated/0/Download/resolv.conf /storage/emulated/0/PocketMine/resolv.conf
+cp /storage/emulated/0/Download/php.ini /storage/emulated/0/PocketMine/php.ini
 ```
 
 ## Composerのインストール
@@ -60,23 +60,23 @@ cp /sdcard/Download/php.ini /sdcard/PocketMine/php.ini
 https://getcomposer.org/installer
 
 ```
-cp /sdcard/Download/installer /sdcard/PocketMine/installer
+cp /storage/emulated/0/Download/installer /storage/emulated/0/PocketMine/installer
 
-cd /sdcard/PocketMine/
+cd /storage/emulated/0/PocketMine/
 mkdir bin
-env TMPDIR='/sdcard/PocketMine/tmp' LESMI_RESOLV_CONF_DIR='/sdcard/PocketMine/resolv.conf' /data/data/jackpal.androidterm/app_HOME/php -c /sdcard/PocketMine/php.ini installer --install-dir=bin
+env TMPDIR='/storage/emulated/0/PocketMine/tmp' LESMI_RESOLV_CONF_DIR='/storage/emulated/0/PocketMine/resolv.conf' /data/data/jackpal.androidterm/app_HOME/php -c /storage/emulated/0/PocketMine/php.ini installer --install-dir=bin
 ```
 
 ## 前提のプログラムをComposerでダウンロード
 ```
-cd /sdcard/PocketMine/
-env TMPDIR='/sdcard/PocketMine/tmp' LESMI_RESOLV_CONF_DIR='/sdcard/PocketMine/resolv.conf' /data/data/jackpal.androidterm/app_HOME/php /sdcard/PocketMine/bin/Composer.phar install
+cd /storage/emulated/0/PocketMine/
+env TMPDIR='/storage/emulated/0/PocketMine/tmp' LESMI_RESOLV_CONF_DIR='/storage/emulated/0/PocketMine/resolv.conf' /data/data/jackpal.androidterm/app_HOME/php /storage/emulated/0/PocketMine/bin/Composer.phar install
 ```
 
 ## 起動
 ```
-cd /sdcard/PocketMine
-env TMPDIR='/storage/PocketMine/tmp' LESMI_RESOLV_CONF_DIR=/sdcard/PocketMine/resolv.conf /data/data/jackpal.androidterm/app_HOME/php -c /sdcard/PocketMine/php.ini /sdcard/PocketMine/PocketMine-MP.phar
+cd /storage/emulated/0/PocketMine
+env TMPDIR='/storage/PocketMine/tmp' LESMI_RESOLV_CONF_DIR=/storage/emulated/0/PocketMine/resolv.conf /data/data/jackpal.androidterm/app_HOME/php -c /storage/emulated/0/PocketMine/php.ini /storage/emulated/0/PocketMine/PocketMine-MP.phar
 ```
 #### 初期起動時のセットアップウィザード
 初期起動時は以下を入力します。
