@@ -2,6 +2,32 @@
 PocketMine-MP用phpバイナリです。<br />
 Androidでお使いになる場合は、ターミナルエミュレータが必要です。<br />
 
+## 簡単な説明
+このphpバイナリは、インターネットに繋がります。  
+インターネットに繋げるには、resolv.conf、cacert.pemを用意してください。  
+Androidでサーバーを動かすには、PMMPやComposerを各自で用意してください。
+
+## 各ファイルのダウンロード
+resolv.confはこのリポジトリにあります。 Download ZIPして使ってください。  
+cacert.pemは以下からダウンロードしてください。  
+  
+  
+[cacert.pem](http://curl.haxx.se/ca/cacert.pem)  
+  
+  
+### 指定方法
+resolv.confは LESMI_RESOLV_CONF_DIR 環境変数で指定できます。  
+  
+cacert.pemは SSL_CERT_FILE 環境変数で指定できます。
+```
+export LESMI_RESOLV_CONF_DIR=/sdcard/resolv.conf
+export SSL_CERT_FILE=/sdcard/cacert.pem
+
+/data/data/jackpal.androidterm/app_HOME/php -r "echo file_get_contents('http://www.example.com/');"
+```
+
+# インストール方法
+
 #### 動作条件
 64bitであること<br />
 #### 32bitの場合
