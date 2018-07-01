@@ -36,6 +36,9 @@ export SSL_CERT_FILE=/sdcard/cacert.pem
 ```
 
 ## Composerのインストールとpmmpのインストール
+  
+環境変数は定義していることを前提にして、説明します。
+  
 https://github.com/pmmp/PocketMine-MP/archive/master.zip  
 をダウンロードして、`/storage/emulated/0/PocketMine/`直下に展開しましょう。  
 ### Composerのインストール
