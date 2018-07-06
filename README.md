@@ -9,7 +9,12 @@ Androidでお使いになる場合は、ターミナルエミュレータが必�
 このphpバイナリは、インターネットに繋がります。  
 インターネットに繋げるには、resolv.conf、cacert.pemを用意してください。  
 Androidでサーバーを動かすには、PMMPやComposerを各自で用意してください。 
+ 
+## 必要なアプリケーション
+ここではターミナルエミュレータとして、「Android Terminal Emulator」を使用します。  
   
+https://play.google.com/store/apps/details?id=jackpal.androidterm  
+
 ## phpのインストール
 phpはこのリポジトリにあります。 Download ZIPして使ってください。   
 
