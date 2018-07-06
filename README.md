@@ -17,7 +17,8 @@ https://play.google.com/store/apps/details?id=jackpal.androidterm
 
 ## phpのインストール
 phpはこのリポジトリにあります。 Download ZIPして使ってください。   
-
+  
+古いPHPバージョンのダウンロードは[こちらのreleasesページ](https://github.com/DaisukeDaisuke/AndroidPHP/releases)から出来ます。
 ```
 cp /storage/emulated/0/Download/AndroidPHP-master/php /data/data/jackpal.androidterm/app_HOME/php
 chmod 777 /data/data/jackpal.androidterm/app_HOME/php
