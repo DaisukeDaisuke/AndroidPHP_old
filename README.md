@@ -41,24 +41,6 @@ export SSL_CERT_FILE=/sdcard/cacert.pem
 /data/data/jackpal.androidterm/app_HOME/php -r "echo file_get_contents('http://www.example.com/');"
 ```
 
-## Composerのインストールとpmmpのインストール
-  
-環境変数は定義していることを前提にして、説明します。
-  
-https://github.com/pmmp/PocketMine-MP/archive/master.zip  
-をダウンロードして、`/storage/emulated/0/PocketMine/`直下に展開しましょう。  
-### Composerのインストール
-https://getcomposer.org/installer  
-を`/storage/emulated/0/PocketMine/`にコピーしておきましょう、そして以下のコマンドを実行しましょう。  
-  
-空のbinフォルダが必要なので、`/storage/emulated/0/PocketMine/bin`を作っておきましょう。
-```
-cd /storage/emulated/0/PocketMine/
-/data/data/jackpal.androidterm/app_HOME/php installer --install-dir=bin
-```
-```
-/data/data/jackpal.androidterm/app_HOME/php /storage/emulated/0/PocketMine/bin/Composer.phar install
-```
 ### pmmpのインストール
 https://jenkins.pmmp.io/job/PocketMine-MP/lastSuccessfulBuild/artifact/PocketMine-MP.phar  
 を`/storage/emulated/0/PocketMine/`にコピーしておきましょう。
