@@ -16,41 +16,38 @@ Androidでサーバーを動かすには、PMMPを各自で用意してくださ
 https://play.google.com/store/apps/details?id=jackpal.androidterm  
 
 ## phpのインストール
-phpはこのリポジトリにあります。 Download ZIPして使ってください。   
-  
-古いPHPバージョンのダウンロードは[こちらのreleasesページ](https://github.com/DaisukeDaisuke/AndroidPHP/releases)から出来ます。
+### phpのダウンロード
+PHPのダウンロードは[こちらのreleasesページ](https://github.com/DaisukeDaisuke/AndroidPHP/releases)から出来ます。
+
+releaseページの`7.3.??`なバージョンの`Assets`のタブの中にあります、`php`リンクをクリック致しまして、phpをダウンロード致します。    
+![img1](https://user-images.githubusercontent.com/17798680/73345192-f9324300-42c6-11ea-9036-c162bf03c5bd.png)
+
+## phpのインストール
+GooglePlayよりダウンロード致しました、「Android Terminal Emulator」を起動致しまして、以下のコマンドを実行致します。
+
 ```
-cp /storage/emulated/0/Download/AndroidPHP-master/php /data/data/jackpal.androidterm/app_HOME/php
+cp /storage/emulated/0/Download/php /data/data/jackpal.androidterm/app_HOME/php
 chmod 777 /data/data/jackpal.androidterm/app_HOME/php
 ```
 
 ## 各ファイルのダウンロード
-resolv.confはこのリポジトリにあります。 Download ZIPして使ってください。  
-cacert.pemは以下からダウンロードしてください。  
+`resolv.conf`,`cacert.pem`,`php.ini`ファイルに関しましては、以下のダウンロードリンクよりダウンロードしてください。  
   
 [cacert.pem](http://curl.haxx.se/ca/cacert.pem)  
-  
-### 指定方法
-resolv.confは LESMI_RESOLV_CONF_DIR 環境変数で指定できます。  
-  
-cacert.pemは SSL_CERT_FILE 環境変数で指定できます。
-```
-export LESMI_RESOLV_CONF_DIR=/sdcard/resolv.conf
-export SSL_CERT_FILE=/sdcard/cacert.pem
+[resolv.conf](https://www.dropbox.com/s/xwta1aobds1557e/resolv.conf?dl=1)   
+[php.ini](https://www.dropbox.com/s/k2sk6u8aefwnr5x/php.ini?dl=1)    
 
-/data/data/jackpal.androidterm/app_HOME/php -r "echo file_get_contents('http://www.example.com/');"
-```
-
-### pmmpのインストール
+ ## 各ファイルの配置
+ ダウンロード致しました、`cacert.pem`,`resolv.conf`,`php.ini`ファイルをすべて、
+ `/storage/emulated/0/PocketMine/config/`フォルダにコピーしましょう。 
+ 
+## pmmpのインストール
 https://jenkins.pmmp.io/job/PocketMine-MP/lastSuccessfulBuild/artifact/PocketMine-MP.phar  
-を`/storage/emulated/0/PocketMine/`にコピーしておきましょう。
+ファイルをダウンロード致しまして、
+`/storage/emulated/0/PocketMine/`にコピーしましょう。
 
 ## 起動
-環境変数の定義を忘れないようにしましょう。  
 ```
-export LESMI_RESOLV_CONF_DIR=/sdcard/resolv.conf
-export SSL_CERT_FILE=/sdcard/cacert.pem
-
-cd /storage/emulated/0/PocketMine
-/data/data/jackpal.androidterm/app_HOME/php /storage/emulated/0/PocketMine/PocketMine-MP.phar
+cd /storage/emulated/0/PocketMine/
+env LESMI_RESOLV_CONF_DIR=/storage/emulated/0/resolv.conf SSL_CERT_FILE=/storage/emulated/0/cacert.pem /data/data/jackpal.androidterm/app_HOME/php -c /storage/emulated/0/PocketMine/php.ini /storage/emulated/0/PocketMine/PocketMine-MP.phar
 ```
