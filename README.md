@@ -51,5 +51,4 @@ GooglePlayよりダウンロード致しました、「Android Terminal Emulator
 ```
 cd /storage/emulated/0/PocketMine/
 env LESMI_RESOLV_CONF_DIR=/storage/emulated/0/resolv.conf SSL_CERT_FILE=/storage/emulated/0/cacert.pem /data/data/jackpal.androidterm/app_HOME/php -c /storage/emulated/0/PocketMine/php.ini /storage/emulated/0/PocketMine/PocketMine-MP.phar
-``
-
+```
