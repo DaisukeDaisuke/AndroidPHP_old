@@ -50,5 +50,5 @@ https://jenkins.pmmp.io/job/PocketMine-MP/lastSuccessfulBuild/artifact/PocketMin
 GooglePlayよりダウンロード致しました、「Android Terminal Emulator」を起動致しまして、以下のコマンドを実行致します。
 ```
 cd /storage/emulated/0/PocketMine/
-env LESMI_RESOLV_CONF_DIR=/storage/emulated/0/resolv.conf SSL_CERT_FILE=/storage/emulated/0/cacert.pem /data/data/jackpal.androidterm/app_HOME/php -c /storage/emulated/0/PocketMine/php.ini /storage/emulated/0/PocketMine/PocketMine-MP.phar
+env LESMI_RESOLV_CONF_DIR=/storage/emulated/0/config/resolv.conf SSL_CERT_FILE=/storage/emulated/0/config/cacert.pem /data/data/jackpal.androidterm/app_HOME/php -c /storage/emulated/0/PocketMine/config/php.ini /storage/emulated/0/PocketMine/PocketMine-MP.phar
 ```
