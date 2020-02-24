@@ -41,7 +41,7 @@ chmod 777 /data/data/jackpal.androidterm/app_HOME/php
  ダウンロード致しました、`cacert.pem`,`resolv.conf`,`php.ini`ファイルをすべて、
  `/storage/emulated/0/PocketMine/config/`フォルダにコピーしましょう。 
  
-## pmmpのインストール
+## PocketMine-MPのインストール
 https://jenkins.pmmp.io/job/PocketMine-MP/lastSuccessfulBuild/artifact/PocketMine-MP.phar  
 ファイルをダウンロード致しまして、
 `/storage/emulated/0/PocketMine/`にコピーしましょう。
