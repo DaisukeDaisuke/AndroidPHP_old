@@ -52,3 +52,4 @@ GooglePlayよりダウンロード致しました、「Android Terminal Emulator
 cd /storage/emulated/0/PocketMine/
 env LESMI_RESOLV_CONF_DIR=/storage/emulated/0/PocketMine/config/resolv.conf SSL_CERT_FILE=/storage/emulated/0/PocketMine/config/cacert.pem /data/data/jackpal.androidterm/app_HOME/php -c /storage/emulated/0/PocketMine/PocketMine/config/php.ini /storage/emulated/0/PocketMine/PocketMine-MP.phar
 ```
+The LESMI_RESOLV_CONF_DIR environment variable is created by the modified musl (gcc).
