@@ -19,7 +19,7 @@ https://play.google.com/store/apps/details?id=jackpal.androidterm
 ### phpのダウンロード
 PHPのダウンロードは[こちらのreleasesページ](https://github.com/DaisukeDaisuke/AndroidPHP/releases)から出来ます。
 
-releaseページの`7.3.??`なバージョンの`Assets`のタブの中にあります、`php`リンクをクリック致しまして、phpをダウンロード致します。    
+releaseページの`7.4.??`なバージョンの`Assets`のタブの中にあります、`php`リンクをクリック致しまして、phpをダウンロード致します。    
 ![img1](https://user-images.githubusercontent.com/17798680/73345192-f9324300-42c6-11ea-9036-c162bf03c5bd.png)
 
 ## phpのインストール
