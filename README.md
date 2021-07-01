@@ -3,7 +3,7 @@
 |  language  | 
 | ---- |
 |  en  |
-| jp |
+| [jp](https://github.com/DaisukeDaisuke/AndroidPHP/blob/master/README_JP.md) |
 
 This is a php binary for PocketMine-MP.  
 For using it on Android, you will need a terminal emulator.  
