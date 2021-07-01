@@ -45,7 +45,7 @@ Please Download the various files (resolv.conf, cacert.pem, php.ini) from the fo
 #### direct downloads
 - [cacert.pem](https://curl.haxx.se/ca/cacert.pem)  
 - [resolv.conf](https://www.dropbox.com/s/xwta1aobds1557e/resolv.conf?dl=1)  
-- [php.ini](https://www.dropbox.com/s/k2sk6u8aefwnr5x/php.ini?dl=1)  
+- [php.ini](https://github.com/DaisukeDaisuke/AndroidPHP/releases/latest/download/php.ini)  
 
 ## Placing the various files
 Please copy all the downloaded files `cacert.pem`, `resolv.conf`, and `php.ini` to the `/storage/emulated/0/PocketMine/config/` folder. 
