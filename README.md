@@ -1,53 +1,59 @@
 # AndroidPHP
-PocketMine-MP用phpバイナリです。  
-Androidでお使いになる場合は、ターミナルエミュレータが必要です。  
+## select language
+|  language  | 
+| ---- |
+|  en  |
+| jp |
 
-## 簡単な説明
-このphpバイナリは64bit用です。  
-32bitは動作しませんので注意してください。  
-  
-このphpバイナリは、インターネットに繋がります。  
-インターネットに繋げるには、resolv.conf、cacert.pemを用意してください。  
-Androidでサーバーを動かすには、PMMPを各自で用意してください。 
+This is a php binary for PocketMine-MP.  
+For using it on Android, you will need a terminal emulator.  
+
+## note
+This php binary is for 64bit.  
+Please note that 32bit will not work.  
+    
+This php binary can still connect to the Internet.  
+Also, the Raspberry Pi can connect to the Internet as is.  
+To connect to the Internet on Android, you need to prepare resolv.conf and cacert.pem, which can be found in the download link in the description below.    
+To run the server on Android, you need to prepare PMMP by yourself.  
  
-## 必要なアプリケーション
-ここではターミナルエミュレータとして、「Android Terminal Emulator」を使用します。  
+## Required Applications
+In this section, we will use "Android Terminal Emulator" as a terminal emulator.   
   
 https://play.google.com/store/apps/details?id=jackpal.androidterm  
 
-## phpのインストール
-### phpのダウンロード
-PHPのダウンロードは[こちらのreleasesページ](https://github.com/DaisukeDaisuke/AndroidPHP/releases)から出来ます。
+## Installing php
+### Download php
+The PHP can be downloaded from the [This release page](https://github.com/DaisukeDaisuke/AndroidPHP/releases).
 
-releaseページの`7.4.??`なバージョンの`Assets`のタブの中にあります、`php`リンクをクリック致しまして、phpをダウンロード致します。    
 ![img1](https://user-images.githubusercontent.com/17798680/73345192-f9324300-42c6-11ea-9036-c162bf03c5bd.png)
 
-## phpのインストール
-GooglePlayよりダウンロード致しました、「Android Terminal Emulator」を起動致しまして、以下のコマンドを実行致します。
-
+## Installing php
+Please launch the Please launch the "Android Terminal Emulator" downloaded from Google Play and please execute the following command. downloaded from Google Play and please execute the following command.  
+To paste text from the clipboard, press and hold the screen in the "Android Terminal Emulator" application, and please select "Paste".
 ```
 cp /storage/emulated/0/Download/php /data/data/jackpal.androidterm/app_HOME/php
 chmod 777 /data/data/jackpal.androidterm/app_HOME/php
 ```
 
-## 各ファイルのダウンロード
-`resolv.conf`,`cacert.pem`,`php.ini`ファイルに関しましては、以下のダウンロードリンクよりダウンロードしてください。  
+## Download various files to connect to the Internet
+Please Download the various files (resolv.conf, cacert.pem, php.ini) from the following download links.  
   
-[cacert.pem](http://curl.haxx.se/ca/cacert.pem)  
-[resolv.conf](https://www.dropbox.com/s/xwta1aobds1557e/resolv.conf?dl=1)   
-[php.ini](https://www.dropbox.com/s/k2sk6u8aefwnr5x/php.ini?dl=1)    
+|direct download|
+| ---- |
+|[cacert.pem](https://curl.haxx.se/ca/cacert.pem)|
+|[resolv.conf](https://www.dropbox.com/s/xwta1aobds1557e/resolv.conf?dl=1)|
+|[php.ini](https://www.dropbox.com/s/k2sk6u8aefwnr5x/php.ini?dl=1)|
 
- ## 各ファイルの配置
- ダウンロード致しました、`cacert.pem`,`resolv.conf`,`php.ini`ファイルをすべて、
- `/storage/emulated/0/PocketMine/config/`フォルダにコピーしましょう。 
+## Placing the various files
+Please copy all the downloaded files `cacert.pem`, `resolv.conf`, and `php.ini` to the `/storage/emulated/0/PocketMine/config/` folder. 
  
-## PocketMine-MPのインストール
-https://jenkins.pmmp.io/job/PocketMine-MP/lastSuccessfulBuild/artifact/PocketMine-MP.phar  
-ファイルをダウンロード致しまして、
-`/storage/emulated/0/PocketMine/`にコピーしましょう。
+## Install PocketMine-MP
+Please download "PocketMine-MP.phar" from the following link and copy it to "/storage/emulated/0/PocketMine/".
+https://jenkins.pmmp.io/job/PocketMine-MP/lastSuccessfulBuild/artifact/PocketMine-MP.phar
 
-## 起動
-GooglePlayよりダウンロード致しました、「Android Terminal Emulator」を起動致しまして、以下のコマンドを実行致します。
+## launch PocketMine-MP
+Launch "Android Terminal Emulator" downloaded from Google Play, and execute the following command.
 ```
 cd /storage/emulated/0/PocketMine/
 env LESMI_RESOLV_CONF_DIR=/storage/emulated/0/PocketMine/config/resolv.conf SSL_CERT_FILE=/storage/emulated/0/PocketMine/config/cacert.pem /data/data/jackpal.androidterm/app_HOME/php -c /storage/emulated/0/PocketMine/config/php.ini /storage/emulated/0/PocketMine/PocketMine-MP.phar
