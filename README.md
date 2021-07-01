@@ -4,7 +4,13 @@
 | :---: |
 |  english  |
 | [日本語](https://github.com/DaisukeDaisuke/AndroidPHP/blob/master/README_JP.md) |
-
+## select version(coming soon)
+| version  | 
+| :---: |
+|  Android 4-6  |
+| Android 7+ |
+| Raspberry Pi 3b,4b |
+## Android 4-6(and more)
 This is a php binary for PocketMine-MP.  
 For using it on Android, you will need a terminal emulator.  
 
@@ -29,7 +35,7 @@ The PHP can be downloaded from the [This release page](https://github.com/Daisuk
 ![img1](https://user-images.githubusercontent.com/17798680/73345192-f9324300-42c6-11ea-9036-c162bf03c5bd.png)
 
 ## Installing php
-Please launch the Please launch the "Android Terminal Emulator" downloaded from Google Play and please execute the following command. downloaded from Google Play and please execute the following command.  
+Please execute the following command.  
 To paste text from the clipboard, press and hold the screen in the "Android Terminal Emulator" application, and please select "Paste".
 ```
 cp /storage/emulated/0/Download/php /data/data/jackpal.androidterm/app_HOME/php
