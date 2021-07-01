@@ -9,7 +9,7 @@ select version(coming soon)
 - Raspberry Pi 3b,4b
 ## Android 4-6(and more)
 This is a php binary for PocketMine-MP.  
-For using it on Android, you will need a terminal emulator.  
+For using it on Android, need a terminal emulator.  
 
 ## note
 This php binary is for 64bit.  
