@@ -42,11 +42,10 @@ chmod 777 /data/data/jackpal.androidterm/app_HOME/php
 ## Download various files to connect to the Internet
 Please Download the various files (resolv.conf, cacert.pem, php.ini) from the following download links.  
   
-|direct download|
-| ---- |
-|[cacert.pem](https://curl.haxx.se/ca/cacert.pem)|
-|[resolv.conf](https://www.dropbox.com/s/xwta1aobds1557e/resolv.conf?dl=1)|
-|[php.ini](https://www.dropbox.com/s/k2sk6u8aefwnr5x/php.ini?dl=1)|
+#### direct downloads
+- [cacert.pem](https://curl.haxx.se/ca/cacert.pem)  
+- [resolv.conf](https://www.dropbox.com/s/xwta1aobds1557e/resolv.conf?dl=1)  
+- [php.ini](https://www.dropbox.com/s/k2sk6u8aefwnr5x/php.ini?dl=1)  
 
 ## Placing the various files
 Please copy all the downloaded files `cacert.pem`, `resolv.conf`, and `php.ini` to the `/storage/emulated/0/PocketMine/config/` folder. 
