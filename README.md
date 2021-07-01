@@ -1,15 +1,12 @@
 # AndroidPHP
-## select language
-|  language  | 
-| :---: |
-|  english  |
-| [日本語](https://github.com/DaisukeDaisuke/AndroidPHP/blob/master/README_JP.md) |
-## select version(coming soon)
-| version  | 
-| :---: |
-|  Android 4-6  |
-| Android 7+ |
-| Raspberry Pi 3b,4b |
+select language
+-  english  
+- [日本語](https://github.com/DaisukeDaisuke/AndroidPHP/blob/master/README_JP.md)
+  
+select version(coming soon)
+- Android 4-6  
+- Android 7+
+- Raspberry Pi 3b,4b
 ## Android 4-6(and more)
 This is a php binary for PocketMine-MP.  
 For using it on Android, you will need a terminal emulator.  
