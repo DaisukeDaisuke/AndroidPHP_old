@@ -10,11 +10,12 @@ select version(coming soon)
 ## Android 4-6(and more)
 This is a php binary for PocketMine-MP.  
 For using it on Android, need a terminal emulator.  
-
+### 
 ## note
 This php binary is for 64bit.  
 Please note that 32bit will not work.  
-    
+**This method has been tested on Android 6 and 4 only and may not work on newer Android versions.**
+  
 This php binary can still connect to the Internet.  
 Also, the Raspberry Pi can connect to the Internet as is.  
 To connect to the Internet on Android, you need to prepare resolv.conf and cacert.pem, which can be found in the download link in the description below.    
