@@ -14,7 +14,7 @@ For using it on Android, need a terminal emulator.
 ## note
 This php binary is for 64bit.  
 Please note that 32bit will not work.  
-**This method has been tested on Android 6 and 4 only and may not work on newer Android versions.**
+**This method has been tested on Android 4, 6 and Raspberry Pi 3b only and may not work on newer Android versions.**
   
 This php binary can still connect to the Internet.  
 Also, the Raspberry Pi can connect to the Internet as is.  
