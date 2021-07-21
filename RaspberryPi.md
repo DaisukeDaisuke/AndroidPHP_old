@@ -15,10 +15,7 @@ cd pmmp
 wget -O "php" https://bit.ly/3BoSMMZ
 wget -O "PocketMine-MP.phar" https://bit.ly/3kzwja2
 chmod 777 php
-echo '#!/usr/bin/env bash' >> start.sh
-echo 'DIR="$(cd -P "$( dirname "${BASH_SOURCE[0]}" )" && pwd)"' >> start.sh
-echo 'cd "$DIR"' >> start.sh
-echo './php ./PocketMine-MP.phar' >> start.sh
+wget -O "start.sh" https://bit.ly/3eEcESG
 chmod 777 start.sh
 cd ../
 ```
@@ -26,6 +23,8 @@ cd ../
 ```
 https://bit.ly/3BoSMMZ = https://github.com/DaisukeDaisuke/AndroidPHP/releases/latest/download/php-gd
 https://bit.ly/3kzwja2 = https://jenkins.pmmp.io/job/PocketMine-MP/lastSuccessfulBuild/artifact/PocketMine-MP.phar
+https://bit.ly/3eEcESG = https://gist.githubusercontent.com/DaisukeDaisuke/341ff68b0e92f3d0fbcd1a59d58042b8/raw/7edfe57ea0122a2c12f8a3cdb4ead8263eb38c0e/start.sh
+(https://gist.github.com/DaisukeDaisuke/341ff68b0e92f3d0fbcd1a59d58042b8)
 ```
 ## Start the server
 ```
