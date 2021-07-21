@@ -14,8 +14,8 @@ mkdir pmmp
 cd pmmp
 wget -O "php" https://bit.ly/3BoSMMZ
 wget -O "PocketMine-MP.phar" https://bit.ly/3kzwja2
-chmod 777 php
 wget -O "start.sh" https://bit.ly/3eEcESG
+chmod 777 php
 chmod 777 start.sh
 cd ../
 ```
