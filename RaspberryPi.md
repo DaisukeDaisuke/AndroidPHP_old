@@ -4,9 +4,9 @@ select version(coming soon)
 - Android 7+
 - Raspberry Pi 3b,4b (experimental)
 ### os
-As for the os, Please use ubuntu or archLinux. (64bit) 
-https://ubuntu.com/download/raspberry-pi  
-
+As for the os, Please use ubuntu or archLinux. (64bit)   
+https://ubuntu.com/download/raspberry-pi    
+  
 ## Install php and pmmp
 Uses 30mb of network.
 ```
