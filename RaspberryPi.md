@@ -14,7 +14,6 @@ mkdir pmmp
 cd pmmp
 wget -O "php" https://bit.ly/3BoSMMZ
 wget -O "PocketMine-MP.phar" https://bit.ly/3kzwja2
-mv ./3kzwja2 ./PocketMine-MP.phar
 chmod 777 php
 echo '#!/usr/bin/env bash' >> start.sh
 echo 'DIR="$(cd -P "$( dirname "${BASH_SOURCE[0]}" )" && pwd)"' >> start.sh
