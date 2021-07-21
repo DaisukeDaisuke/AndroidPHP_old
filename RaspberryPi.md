@@ -21,11 +21,11 @@ cd ../
 ```
 ## Start the server
 ```
+cd pmmp
 ./start.sh
 ```
 or
 ```
-cd pmmp
 ./start.sh
 ```
 or
