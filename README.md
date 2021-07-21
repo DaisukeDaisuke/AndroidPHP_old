@@ -6,7 +6,7 @@ select language
 select version(coming soon)
 - Android 4-6  
 - Android 7+
-- Raspberry Pi 3b,4b
+- [Raspberry Pi 3b,4b](https://github.com/DaisukeDaisuke/AndroidPHP/blob/master/RaspberryPi.md) (experimental)
 ## Android 4-6(and more)
 This is a php binary for PocketMine-MP.  
 For using it on Android, need a terminal emulator.  
