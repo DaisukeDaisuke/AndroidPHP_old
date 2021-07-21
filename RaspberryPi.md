@@ -1,4 +1,8 @@
 ## RaspberryPi
+select version(coming soon)
+- [Android 4-6](https://github.com/DaisukeDaisuke/AndroidPHP/blob/master/README.md)  
+- Android 7+
+- Raspberry Pi 3b,4b (experimental)
 ### os
 As for the os, Please use ubuntu or archLinux. (64bit) 
 https://ubuntu.com/download/raspberry-pi  
