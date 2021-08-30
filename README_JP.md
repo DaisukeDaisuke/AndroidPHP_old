@@ -42,7 +42,7 @@ chmod 777 /data/data/jackpal.androidterm/app_HOME/php
  `/storage/emulated/0/PocketMine/config/`フォルダにコピーしましょう。 
  
 ## PocketMine-MPのインストール
-https://jenkins.pmmp.io/job/PocketMine-MP/lastSuccessfulBuild/artifact/PocketMine-MP.phar  
+https://github.com/pmmp/PocketMine-MP/releases/latest/download/PocketMine-MP.phar  
 ファイルをダウンロード致しまして、
 `/storage/emulated/0/PocketMine/`にコピーしましょう。
 
