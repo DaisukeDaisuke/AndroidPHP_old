@@ -53,7 +53,7 @@ Please copy all the downloaded files `cacert.pem`, `resolv.conf`, and `php.ini` 
  
 ## Install PocketMine-MP
 Please download "PocketMine-MP.phar" from the following link and copy it to "/storage/emulated/0/PocketMine/".
-https://jenkins.pmmp.io/job/PocketMine-MP/lastSuccessfulBuild/artifact/PocketMine-MP.phar
+https://github.com/pmmp/PocketMine-MP/releases/latest/download/PocketMine-MP.phar
 
 ## launch PocketMine-MP
 Launch "Android Terminal Emulator" downloaded from Google Play, and execute the following command.
