@@ -1,4 +1,7 @@
-# AndroidPHP
+# AndroidPHP_old
+### This repository has been moved to the following url and all builds are being carried out on github action.
+### https://github.com/DaisukeDaisuke/AndroidPHP
+
 select language
 -  english  
 - [日本語](https://github.com/DaisukeDaisuke/AndroidPHP/blob/master/README_JP.md)
