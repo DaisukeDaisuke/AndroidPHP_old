@@ -44,7 +44,7 @@ or
 First, Please stop the server.
 ```
 cd pmmp
-rm ./PocketMine-MP.phar
+rm PocketMine-MP.phar
 wget -O "PocketMine-MP.phar" https://bit.ly/3kzwja2
 ```
 
